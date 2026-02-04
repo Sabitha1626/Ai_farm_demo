@@ -1,0 +1,12 @@
+{
+    "name": "punchbiz-root",
+    "version": "1.0.0",
+    "description": "Root script to run both frontend and backend",
+    "scripts": {
+        "install-all": "npm install && cd Frontend && npm install && cd ../Backend && npm install",
+        "dev": "concurrently \"cd Backend && npm run dev\" \"cd Frontend && npm run dev\""
+    },
+    "dependencies": {
+        "concurrently": "^8.2.2"
+    }
+}
