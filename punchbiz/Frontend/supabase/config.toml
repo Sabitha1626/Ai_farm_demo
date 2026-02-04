@@ -1,0 +1,25 @@
+project_id = "oikuhafxfclvfkjbapwl"
+
+[functions.chat]
+verify_jwt = false
+
+[functions.sensor-data]
+verify_jwt = false
+
+[functions.heat-detection]
+verify_jwt = false
+
+[functions.send-notification]
+verify_jwt = false
+
+[functions.health-records-api]
+verify_jwt = false
+
+[functions.breeding-events-api]
+verify_jwt = false
+
+[functions.voice-to-text]
+verify_jwt = false
+
+[functions.text-to-speech]
+verify_jwt = false
